@@ -123,4 +123,8 @@ font-size: 48px;
 font-weight: 700;
 line-height: 72px;
 }
+.country-images {
+  display: flex;
+  justify-content: space-between;
+}
 /* -------------The Country Section Style End-------------- */
