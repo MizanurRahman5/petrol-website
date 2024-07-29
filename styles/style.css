@@ -215,3 +215,31 @@ font-weight: 700;
 line-height: 54px;
 }
 /* ---------------our Service Section End------------------ */
+
+.About {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 3rem auto;
+}
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(244, 4, 4);
+  color: white;
+}
+.about-content h1{
+  max-width: 262px;
+  color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+}
+.about-image {
+  background-image: url('../images/unsplash_3YZJ0ulbZho.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 175px 250px;
+}
