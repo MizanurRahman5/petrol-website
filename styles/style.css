@@ -132,7 +132,7 @@ line-height: 72px;
 .Our-Service {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 2rem 0 ;
+  margin: 2rem 0 0 ;
   position: relative;
   gap: .2rem;
   
@@ -219,7 +219,11 @@ line-height: 54px;
 .About {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  margin: 3rem auto;
+  margin: 0 auto;
+  padding: 50px;
+}
+.Company-About {
+  background: rgb(240, 240, 240);
 }
 .about-content {
   display: flex;
@@ -242,4 +246,11 @@ line-height: 54px;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 175px 250px;
+}
+.sponsor-image {
+  display: flex;
+  justify-content: space-between;
+}
+.sponsor {
+  padding: 100px 0;
 }
